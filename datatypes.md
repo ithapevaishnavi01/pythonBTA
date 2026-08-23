@@ -1,4 +1,4 @@
-<!-- object types / data types -->
+# object types / data types 
 
 -Number : 1234, 3.33 , 0b345  , Decimal(), fraction()
 
