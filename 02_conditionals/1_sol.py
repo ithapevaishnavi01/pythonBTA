@@ -1,7 +1,8 @@
 age = 65
 
 if age < 13:
-    print("Child")
+    print("It's Child")
+    
 elif age < 20:
     print("Teenager")
 elif age < 60:
