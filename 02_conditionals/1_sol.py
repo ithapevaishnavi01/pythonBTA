@@ -11,3 +11,4 @@ elif age < 60:
     
 else:
     print("It's Senior")
+    
