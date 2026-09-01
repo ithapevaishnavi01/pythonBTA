@@ -10,5 +10,5 @@ elif age < 60:
     print("It's Adult yuppp")
     
 else:
-    print("It's Senior")
+    print("It's Senior yupp")
     
