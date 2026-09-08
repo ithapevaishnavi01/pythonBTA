@@ -14,6 +14,7 @@ p=6
 p += 2
 print(p)
 
+
 # comparison operators(==, !=, >, <, >=, <=)
 print(a==b)
 print(a!=b)
