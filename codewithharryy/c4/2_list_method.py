@@ -7,6 +7,11 @@ l1=[1,2,3,9 , 3,]
 l1.sort() # Sorts the list in ascending order
 print(l1)
 
+l2=[1,2,3,9 , 3,46,566,34,23,45,67]
+l2.insert(2, "harry") # Inserts "harry" at index 2
+print(l2)
+
+
 # append() → adds item
 # extend() → adds multiple items
 # insert() → adds at position
