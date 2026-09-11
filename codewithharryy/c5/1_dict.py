@@ -9,3 +9,4 @@ print(marks , type(marks))  # prints the type of marks which is dict
 
 print(marks["vaishnavi"])  # prints the value of key "vaishnavi" which is 90
 
+
