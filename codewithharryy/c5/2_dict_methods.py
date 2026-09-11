@@ -1,3 +1,6 @@
+k = {} #empty dictionary
+
+
 marks = {
     "vaishnavi": 90,
     "vinod": 80,
