@@ -8,3 +8,6 @@ for j in range (100):
     if (j == 34):
         continue #skip the ineration , its skip the 24 and print the next value
     print(j)
+
+
+
