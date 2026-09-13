@@ -1,4 +1,4 @@
-n = int (input("enter the no:"))
+# n = int (input("enter the no:"))
 
 # for i in range(1,11):
 #     print(f"{n} X {11-i}= {n * (11-i)}")    #reverse table
@@ -58,3 +58,12 @@ n = int (input("enter the no:"))
 #     print(" " * (n-i) , end = "")
 #     print("*" * (2*i-1))
 
+
+
+n = int (input("enter the no:"))
+
+# for i in range(n):
+#     if i == 0 or i == n - 1:
+#         print("*" * n)
+#     else:
+#         print("*" + " " * (n - 2) + "*")
