@@ -14,3 +14,47 @@ n = int (input("enter the no:"))
 #                    #**
 #                    #*
 
+
+# for i in range(1,n+1):
+#     print(" "*(n-i),end="")
+#     print("*"*(2*i-1),end="")
+#     print("")                      # same prg just change n-i replace with n-1 it will print another pattern
+
+
+# for i in range(1, n + 1):
+#     print(" " * (n - i) + "*" * i)
+
+
+
+# for i in range (1,n+1):
+#     print(" " * (n-i) + "*" *i)
+    
+# for i in range(n,0,-1):
+#     print(" " * (n-i) + "*" * i)
+
+# for i in range(1,n+1):
+#     print(" "*(n-1),end="")
+#     print("*" * i)
+
+# for i in range (1,n+1):
+#     print(" "*(n-i),"*" *i)
+
+# for i in range (n,0,-1):
+#     print("*"*i)
+
+# for i in range(n,0,-1):
+#     print(" "* (n-i)+ "*"*i)
+
+
+# for i in range(1,n+1):
+#     print(" " * (n-1) , end="")
+#     print("*" *i)
+
+# for i in range (1,n+1):
+#     print(" "* (n-i) + "*" * i)
+
+
+# for i in range(1,n+1):
+#     print(" " * (n-i) , end = "")
+#     print("*" * (2*i-1))
+
