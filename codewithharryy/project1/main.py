@@ -11,8 +11,12 @@ youStr = input("Enter your choice: ")
 
 youDict = {"1": 1, "2": -1, "3": 0}
 
+rev_dict={1:"1",-1:"2",0:"3"}
+
 you = youDict[youStr]
 
+
+print(f"you chose {rev_dict[you]} \n computer chose {rev_dict[computer]}")
 
 if computer == you:
     print("its drow")
