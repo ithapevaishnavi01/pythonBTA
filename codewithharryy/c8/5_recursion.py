@@ -11,3 +11,4 @@ def fact(n):
 
 n = int (input("eneter a no :" ))
 print(f"factorail of the no is {fact(n)}")
+
