@@ -4,19 +4,22 @@
 0 = for gun
 '''
 
+import random
 
-computer = -1
+computer = random.choice([1,-1,0])
 
 youStr = input("Enter your choice: ")
 
 youDict = {"1": 1, "2": -1, "3": 0}
 
-rev_dict={1:"1",-1:"2",0:"3"}
+rev_dict={1:"snake",-1:"water",0:"gun"}
 
 you = youDict[youStr]
 
 
-print(f"you chose {rev_dict[you]} \n computer chose {rev_dict[computer]}")
+#we have 2 nos (variables) you and computer
+
+print(f"you chose {rev_dict[you]} \ncomputer chose {rev_dict[computer]}")
 
 if computer == you:
     print("its drow")
