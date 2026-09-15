@@ -6,7 +6,7 @@ youStr = input("Enter your choice: ")
 
 youDict = {"1": 1, "2": -1, "3": 0}
 
-rev_dict={1:"snake",-1:"water",0:"gun"}
+rev_dict={1:"snake",-1:"water",0:"gun"} 
 
 you = youDict[youStr]
 
