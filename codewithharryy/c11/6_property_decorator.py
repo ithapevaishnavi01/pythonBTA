@@ -1,4 +1,4 @@
-class emp:
+class emp:                     #  Encapsulation ,  bundling data and methods together and controlling access to that data.
     a = 1
 
     @classmethod
@@ -7,19 +7,19 @@ class emp:
 
     @property
     def name(self):
-        return self._name
+        return f"{self.fname} {self.lname}"
 
     @name.setter
-    def name(self, value):
-        self._name = value
-
+    def name(self, value):                               
+        self.fname = value.split(" ")[0]                 #abstraction  , hiding unnecessary implementation details and showing only what is necessary.  
+        self.lname = value.split(" ")[1]
 
 e = emp()
 
 e.a = 45
 
-e.name = "vaishnavi"
+e.name = "vaishnavi ithape"
 
-print(e.name)
+print(e.fname,e.lname)
 
 e.show()
