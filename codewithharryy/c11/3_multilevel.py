@@ -1,8 +1,14 @@
 class a():
-    pass
+    a=1
 
 class b(a):
-    pass
+    b=2
 
 class c(b):
-    pass
+    c=3
+
+
+d=c
+
+print(c.b)
+print(c.a)
