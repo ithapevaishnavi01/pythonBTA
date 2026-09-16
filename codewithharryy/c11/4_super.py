@@ -9,7 +9,7 @@ class programmer(emp):
     def __init__(self):
         print("constructor of programmer")
 
-    b = 2
+    b = 2   
 
 
 class manager(programmer):
