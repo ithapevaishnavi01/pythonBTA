@@ -10,3 +10,13 @@ n = Number(1)
 m = Number(2)
 
 print(n + m)
+
+
+
+# __add__      # +
+# __sub__      # -
+# __mul__      # *
+# __truediv__  # /
+# __lt__       # <
+# __gt__       # >
+# __eq__       # ==
