@@ -1,4 +1,4 @@
-name = "hello my name is  vaishnavi  y"
+name = "hello my name is vaishnavi y"
 
 print(name.find("  "))  #finds the index of first occurrence of "  " in string 
 

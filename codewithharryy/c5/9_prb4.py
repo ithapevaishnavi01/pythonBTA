@@ -18,7 +18,7 @@ subject = input("Enter your subject: ")
 d.update({name: subject})  # adds the name and subject entered by user to the dictionary
 
 
-print(d)  # prints the dictionary with names and subjects entered by user
+print(d)  # prints the dictionary with names and subjects entered by users
 
 
 
