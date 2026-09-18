@@ -8,6 +8,7 @@ class emp:
 
     @increment.setter
     def increment(self,salary):
+
         
 e = emp()
 print(e.Salaryafterinc)
