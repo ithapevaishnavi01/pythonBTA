@@ -5,3 +5,5 @@ if __name__=="__main__": #if the code is directly executed by running the file i
     print("we are directly running the code")
     myfun()
     print(__name__)
+
+myfun()
