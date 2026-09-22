@@ -17,10 +17,13 @@ public class neg_no_store {
         // System.out.println(b);  //or 300 % 256 = 44
 
         //truncating conversion
-        float f = 15.765f;
-        int i ;
-        i=(int)f;   ///error when write i=f , have to do casting
-        System.out.println(i);
+        // float f = 15.765f;
+        // int i ;
+        // i=(int)f;   ///error when write i=f , have to do casting
+        // System.out.println(i);
 
+        byte b = 50;;
+        b = (byte) (b*2);
+        System.out.println(b);
     }
 }
