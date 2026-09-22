@@ -9,10 +9,12 @@ public class datatype {
                                 
         short s = 20;
         int i = 2000;
-        long l = 300000;
+        long l = 300__000;
 
         float f = 15.0f;
-        double d=56.659;
+        //double d=56.659;
+        double d =6.022e23;  //6.022 * 10^23
+
 
         char c = 'A';
 
