@@ -19,9 +19,10 @@ public class operators {
         ++e;  //prefix
        
 
-        int f = e++;
+        int f = e++; //here e=9 and f=8
+        // int f = ++e; //here e=9 and f=9
         System.out.println(e + "," + f);
-        
+
 
     }
 }
