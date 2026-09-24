@@ -21,7 +21,7 @@ public class operators {
 
         int f = e++;
         System.out.println(e + "," + f);
-
+        
 
     }
 }
