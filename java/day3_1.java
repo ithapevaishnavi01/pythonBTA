@@ -9,6 +9,6 @@ public class day3_1 {
 
     
         //check notes for all  
-        // output of all relational/comparsion operators comes in true or flase
+        // output of all relational/comparsion operators comes in true or false
     }
 }
