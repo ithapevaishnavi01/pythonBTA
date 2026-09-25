@@ -20,5 +20,8 @@ public class day4 {
         System.out.println(g);
 
         //right shift (>>) and (>>>)
+        byte h = 12;
+        h= (byte)(h >> 3);
+        System.out.println(h);
     }
 }
