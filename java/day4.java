@@ -10,7 +10,7 @@ public class day4 {
 
 
         System.out.println(+c + "," +d +"," +e +"," +f);
-
+        
 
         //shift op  
 
