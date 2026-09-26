@@ -13,6 +13,7 @@ public class day5 {
             // }
 
 
+
              //if-else 
             //  if(i == 4) {
             //     System.out.println("i is 5 ");
@@ -23,6 +24,8 @@ public class day5 {
             //         System.out.println("i is not 5");
             //     }
  
+
+
             //nested if
             if (i>5){
                 if(i<10){
@@ -36,7 +39,22 @@ public class day5 {
 
             }
 
-
+            // if (i > 5 && i <10){} .... doing this is better than  nasted .. there are lots of confusion in nasted
+            
+            
+            //if-elseif ladder
+            if(i == 5){
+                System.out.println("i is 5");
+            }
+            else if (i == 4) {
+                System.out.println("i is 4");
+            }
+             else if (i == 3) {
+                System.out.println("i is 3");
+            }
+              else if (i == 12) {
+                System.out.println("i is 12");
+            }
 
          }
 }
