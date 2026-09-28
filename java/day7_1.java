@@ -10,7 +10,8 @@ public class day7_1 {
         // }
         // System.out.println(i);
 
-
+        //infinite loop in for
+    
         for (int  i=1 ; i<10;i++){        //remove i it will. become infinite loop
             System.out.println("hello");
         }
