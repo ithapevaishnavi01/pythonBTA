@@ -36,13 +36,15 @@ public class day8_1 {
         //     System.out.println(i);
         // }
 
-
-        for (int i =1;i<=10;i++){
-            if(i % 2 == 0){
-                continue;
+        //lables
+        
+        outer: for (int i =1;i<=10;i++){
+            inner: if(i % 2 == 0){
+                continue outer;
             }
             System.out.println(i);
         }
+
 
 
     }
