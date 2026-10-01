@@ -1,7 +1,10 @@
 public class day9_3 {
     
     public static void main(String[] args) {
+  
 
+        // 2D array in java
+        
         int  [] [] marks= {
             {10,20,30},
             {40,50},

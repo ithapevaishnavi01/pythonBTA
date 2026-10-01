@@ -2,6 +2,7 @@ public class day9_2 {
     
     public static void main(String[] args) {
 
+        //2d array in java using new keyword
         int [] [] marks = new int [3][];
         marks[0] = new int[3];
         marks[1] = new int[2];
