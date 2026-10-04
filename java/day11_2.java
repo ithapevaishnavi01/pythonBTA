@@ -26,11 +26,21 @@ public class day11_2 {
             return (int)(a+b);
         }
 
-        static void greet(int age,String name){ //diff type of parameters
+        static void greet(int age,String name){ //diff type of parameters , ordering of parameters  
             System.out.println("Hello " + name + " your age is " + age);
         }
 
         static void greet(String name, int age){ //diff type of parameters
             System.out.println("Hello " + name + " your age is " + age);
         }
+
+                        // static void fun(){          
+                        //     System.out.println("Hello");
+                        // }
+                                //compiler will not consider the return type while overloading  
+                                //it gives compile time error
+
+                        // static int fun(){
+                        //     return 10;
+                        // }
 }
