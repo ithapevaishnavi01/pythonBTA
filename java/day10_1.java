@@ -8,5 +8,7 @@ public class day10_1 {
         String mix= name + " " + lname;
         System.out.println(mix);
 
+        // System.out.print(name + " " + lname);
+
 }
 }
