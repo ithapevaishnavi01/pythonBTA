@@ -38,12 +38,12 @@ public class day8_1 {
 
         //lables
         
-        outer: for (int i =1;i<=10;i++){
-            inner: if(i % 2 == 0){
-                continue outer;
-            }
-            System.out.println(i);
-        }
+        // outer: for (int i =1;i<=10;i++){
+        //     inner: if(i % 2 == 0){
+        //         continue outer;
+        //     }
+        //     System.out.println(i);
+        // }
 
 
 
